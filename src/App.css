@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Play:wght@400;700&family=Poppins&family=Varela+Round&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid darkgray;
+  width: 42vw;
+  border-radius: 10px;
+  box-shadow:0 0 10px #888888;
+  background-color: #fff;
+  color:rgb(80, 80, 80);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(.25turn, rgb(255, 0, 0), 45%, rgb(25, 46, 77));
+  color:#fff;
+  height: 55px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 42vw;
+}
+
+.nav i{
+  margin: 10px;
+}
+.nav h2 {
+  font-size: 15px;
+}
+
+.info--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 38vw;
+  border-bottom:0.8px solid rgb(71, 71, 71);
+  padding-bottom: 25px;
+}
+.info--container img {
+  width:200px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-left: 15px;
+  
+}
+.info h1 {
+  font-size: 25px;
+  margin-top:-5px;
+}
+
+
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-left: -60px;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+.p{
+  margin-left: -60px;
+}
+.fa-solid{
+  margin-left:-14px;
+}
+
+.date {
+  font-size: 12px;
+}
